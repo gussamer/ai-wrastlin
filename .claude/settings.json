@@ -1,0 +1,14 @@
+{
+  "autoUpdatesChannel": "latest"
+  ,"permissions": {
+    "deny": [
+      "Read(node_modules/**)",
+      "Read(.git/**)",
+      "Read(.sfdx/**)",
+      "Read(.sf/**)",
+      "Read(.vscode/**)",
+      "Read(.husky/**)",
+      "Read(.env)"
+    ]
+  }
+}
